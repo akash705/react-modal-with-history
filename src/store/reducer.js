@@ -1,5 +1,5 @@
-var initialState={
-    images:[
+var initialState = {
+    images: [
         "https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "https://images.pexels.com/photos/2084974/pexels-photo-2084974.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "https://images.pexels.com/photos/2194062/pexels-photo-2194062.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
@@ -8,10 +8,11 @@ var initialState={
         "https://images.pexels.com/photos/792199/pexels-photo-792199.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "https://images.pexels.com/photos/2120016/pexels-photo-2120016.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        
+        "https://images.pexels.com/photos/2222383/pexels-photo-2222383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     ]
 }
-var reducer = (state=initialState,action)=>{
+var reducer = (state = initialState, action) => {
     return state;
 }
 export default reducer;

@@ -8,7 +8,7 @@
     max-height:100%;
     cursor: pointer;
     transition: 1s;
-
+    border-radius:5px;
 }
 .lightBoxImage:hover{
     filter:brightness(.8);

@@ -1,0 +1,15 @@
+.singlePageImageContainer img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    cursor: pointer;
+    width:60%;
+    box-shadow:0px 0px 5px lightgrey;
+    border-radius:5px;
+}
+p > a{
+   color: #ffc107;
+   text-decoration: none;
+
+}
