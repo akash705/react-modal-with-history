@@ -1,23 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
+import Index from './components/index';
+import SingleImageContainer from './components/singleImageContainer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+            <Router>
+            <Route path="/" exact component={Index} />
+            <Route path="/second" exact component={SingleImageContainer} />
+            </Router>
       </header>
     </div>
   );
