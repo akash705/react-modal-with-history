@@ -1,4 +1,5 @@
 import React, {Component } from 'react'
+import {connect} from 'react-redux';
 
 
 class Index extends Component {
@@ -12,4 +13,9 @@ class Index extends Component {
     }
 }
  
-export default Index;
+var mapsToProps=(state)=>{
+    return {
+        images:state.images
+    }
+}
+export default connect(mapsToProps,null)(Index);

@@ -8,12 +8,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
             <Router>
-            <Route path="/" exact component={Index} />
-            <Route path="/second" exact component={SingleImageContainer} />
+                <Route path="/" exact component={Index} />
+                <Route path="/:id" exact component={SingleImageContainer} />
             </Router>
-      </header>
     </div>
   );
 }
